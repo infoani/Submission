@@ -24,6 +24,9 @@ Implementation and Processing details:
 
 # /download API
 
+Method of invocation:
+# curl -X GET http://127.0.0.1:6543/download?id=<download_id>
+
 Implementation and processing details:
 
 1. The download id received would be the key to retrieving the downloaded data.
